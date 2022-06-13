@@ -7,3 +7,7 @@ def test_init():
 
 def test_input():
     assert (main(1)) == True
+
+
+def test_stringinput():
+    assert (main("1")) == False
